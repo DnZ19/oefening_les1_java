@@ -11,7 +11,9 @@ package nl.novi.jp.methods.beginner;
  */
 public class BeginnerTwo {
     public static void main(String[] args) {
+
         printFact();
+        printAnotherFact();
     }
 
     public static void printFact() {

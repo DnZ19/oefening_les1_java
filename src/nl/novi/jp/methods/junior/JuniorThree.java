@@ -9,6 +9,8 @@ package nl.novi.jp.methods.junior;
 public class JuniorThree {
     public static void main(String[] args) {
 
+        negativeNumberChecker(-2);
+
     }
 
     public static void negativeNumberChecker(int number) {

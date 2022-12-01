@@ -14,10 +14,16 @@ public class MediorThree {
         printName("SjAaK", "Patat");
         printName("henk","spaghetti");
         printName("Doerak", "BELL");
+
     }
 
     public static void printName(String firstName, String lastName) {
-        System.out.println("Naam: " + firstName + " " + lastName);
+
+        String newFirst = firstLetterToUpperCase(firstName);
+        String newLast = firstLetterToUpperCase(lastName);
+
+        System.out.println("Naam: " + newFirst + " " + newLast);
+
     }
 
     public static String firstLetterToUpperCase(String name) {
